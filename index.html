@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suwandi's Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg sticky fixed-top r-nav">
+        <div class="container">
+            <a href="#" class="navbar-brand">My Portfolio</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarId">
+                <span><i class="fas fa-bars navbar-icon"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarId">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#Home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </nav>
+    
+    <div class="home" id="Home">
+        <div class="home-image">
+            <img src="profile-1.jpg" alt="" class="profile">
+        </div>
+        <div class="home-content">
+            <h1>Hi, <span class="element" style="color: pink;"></span></h1>
+            <h3>My student ID is 2702350775, And I'm from L1CC class</h3>
+            <p>I was born in tebing tinggi, North Sumatra. I was graduated from SMA
+                Swasta
+                Ir.H.Djuanda Tebing Tinggi. Now, I am currently a student of Binus International University</p>
+                <input type="radio" class="form-check-input" id="pria" name="jenis_kelamin" value="pria" checked>
+                <label for="pria" class="form-check-label me-3">I'm a Male</label>
+        </div>
+    </div>
+
+    <section class="about r-p" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mt-5-lg-0">
+                    <h2>About me</h2>
+                    <h4>Hi, I'm Suwandi </h4>
+                    <ul class="list-inline">
+               
+                            <li class="list-inline-item"><a href="" class="education"><i class="education-logo fa solid fa-user-graduate"></i>II was
+                                graduated from SMA Swasta Ir.H.Djuanda Tebing Tinggi</a></li>
+                        <li class="list-inline-item"><a href="https://binus.ac.id" class="education"><i class="education-logo fa solid fa-school"></i>I am currently studying as a student
+                            at Binus International University</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 d-flex justify-content-center align-items-center">
+                    <h3>My Programming Skills</h3>
+                </div>
+                <div class="col-md-6">
+                    <label >HTML</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                    <label >CSS</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">50%</div>
+                    </div>
+                    <label >JavaScript</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                    <label >Python</label>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">25%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact r-p bg-sec" id="contact">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <h2>Contact Me</h2>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="r-icon">
+                        <i class="fa-brands fa-whatsapp"></i>
+                        <div class="text-center">
+                            <h5>Whatsapp</h5>
+                            <p>0812-6357-2548</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="r-icon">
+                        <a href="https://www.instagram.com/suwandi.the/">
+
+                            <i class="instagram fa-brands fa-instagram"></i>
+                        </a>
+                        <div class="text-center">
+                            <h5>Instagram</h5>
+                            <p>@suwandi.the</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="r-icon">
+                        <i class="far fa-envelope"></i>
+                        <div class="text-center">
+                            <h5>Email</h5>
+                            <p>Suwandi.the@binus.ac.id</p>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="row mt-5">
+                <div class="col">
+                    <form >
+                        <div class="form-row">
+                            <div class="form-group row-md-6">
+                                <input type="text" class="form control" placeholder="Name">
+                            </div>
+                            <div class="form-group row-md-6">
+                                <input type="text" class="form control" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Message" rows="7" style="resize: none;"></textarea>
+                        </div>
+                        <button type="submit" class="btn r-btn float-right">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="container d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="col">
+                    <div class="r-icon text-center mt-3">
+                        <ul>
+                            <li class="list-inline-item"><a href="#contact"><i class="fa-brands fa-whatsapp"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.instagram.com/suwandi.the/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li class="list-inline-item"><a href="#contact"><i class="far fa-envelope"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
